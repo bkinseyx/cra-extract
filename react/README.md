@@ -1,10 +1,28 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# cra-redux-ts
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+typescripts and vscode setup based on article [Setting up your create-react-app project with TypeScript & VSCode](https://medium.com/@xfor/setting-up-your-create-react-app-project-with-typescript-vscode-d83a3728b45e) by Michał Wrzosek.
+
+redux-toolkit implemented with close reference to github project [React Redux Toolkit Typescript](https://github.com/darylwalsh/redux-toolkit-example-ts)
+
+This project also follows the ideas in the redux-toolkit advanced documentation : [Advanced Tutorial: Redux Toolkit in Practice](https://redux-toolkit.js.org/tutorials/advanced-tutorial)
+
+This project uses hooks and functional components exclusively.
+
+This project uses typescript, both for typing and for advanced features that can be downcompiled.
+
+This project uses eslint, with some plugins to make it work better with typescript.
+
+This project uses npm instead of yarn by default.
+
+This project is set to format on save with prettier in vscode. I like this setting, please give it a try.
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `yarn start`
+### `npm start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -12,12 +30,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `yarn test`
+### `npm run test`
 
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+### `npm run build`
 
 Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -26,16 +44,6 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ## Learn More
 

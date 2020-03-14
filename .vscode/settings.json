@@ -12,7 +12,7 @@
   },
   "editor.formatOnSave": true,
   "[typescript]": {
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": false,
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": true
     }
@@ -26,5 +26,7 @@
   "editor.renderWhitespace": "boundary",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
-  }
+  },
+  "git.ignoreLimitWarning": true,
+  "eslint.workingDirectories": ["./react", "./extractor"]
 }
